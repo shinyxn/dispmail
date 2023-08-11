@@ -1,13 +1,13 @@
 <h1 align="center">
   <br>
-<img src="https://raw.githubusercontent.com/shinyxn/dispmail/master/assets/dispmail-logo.png" alt="Dispmail" width="300">
+<img src="https://raw.githubusercontent.com/shinyxn/dispmail/main/assets/dispmail-logo.png" alt="Dispmail" width="300">
   <br>
   Dispmail
   <br>
 </h1>
 <h4 align="center">Generate temporary email from ur fav CLI</h4>
 <p align="center">
-    <img src="https://raw.githubusercontent.com/shinyxn/dispmail/master/assets/dispmail-demo.gif" width="400" alt="Dispmail demo">
+    <img src="https://raw.githubusercontent.com/shinyxn/dispmail/main/assets/dispmail-demo.gif" width="400" alt="Dispmail demo">
   <br>
   <a href="https://www.npmjs.com/package/dispmail">
     <img src="https://img.shields.io/npm/v/dispmail.svg?style=flat-square"
