@@ -1,0 +1,49 @@
+{
+  "name": "dispmail",
+  "version": "1.0.0",
+  "description": "Generate temporary email from CLI",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . src __tests__ --ext .js,.cjs",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "ava --serial"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinyxn/dispmail.git"
+  },
+  "keywords": [
+    "temporary",
+    "email",
+    "disposable",
+    "cli"
+  ],
+  "bin": {
+    "dispmail": "./bin/index.js"
+  },
+  "author": "shinyxn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shinyxn/dispmail/issues"
+  },
+  "homepage": "https://github.com/shinyxn/dispmail#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "clipboardy": "^3.0.0",
+    "conf": "^11.0.2",
+    "inquirer": "^9.2.8",
+    "inquirer-maxlength-input-prompt": "^1.0.2",
+    "open": "^9.1.0",
+    "ora": "^6.3.1",
+    "phin": "^3.7.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "ava": "^5.3.1",
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-ava": "^14.0.0",
+    "eslint-plugin-import": "^2.28.0"
+  }
+}

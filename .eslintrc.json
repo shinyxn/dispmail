@@ -1,0 +1,42 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb-base",
+        "plugin:ava/recommended",
+        "plugin:import/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "import",
+        "ava"
+    ],
+    "rules": {
+        "no-plusplus": "off",
+        "no-param-reassign": 0,
+        "import/no-unresolved": 0,
+        "import/extensions": [
+            "error",
+            {
+                "js": "ignorePackages"
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            }
+        }
+    }
+}
